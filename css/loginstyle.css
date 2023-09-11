@@ -1,0 +1,70 @@
+
+.login-page {
+  width: 400px;
+  padding: 10% 1% 1%;
+  margin: auto;
+}
+.login-page .form .login{
+  margin-top: -31px;
+  margin-bottom: 26px;
+}
+.form{
+  position: relative;
+  font-family:Cursive;
+  background:  #ffffff;
+  color:#0f0f0f;
+  max-width: 460px;
+  margin: 0 auto 100px;
+  padding: 43px;
+  text-align: center;
+  border-radius: 20px;
+}
+.form input {
+  font-family:Cursive;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 20px;
+}
+.form button {
+  font-family:Cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background-color:#0f0f0f;
+  background-image: #0f0f0f;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #000000;
+  font-size: 10px;
+}
+.form .message a {
+  color: purple;
+  text-decoration:none;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 350px;
+  margin: auto auto auto;
+}
+
+body {
+  background-color:#b89fcf;
+  background-image:url('../images/loginbackimg.jpeg');
+  background-size: cover;
+  font-family: Cursive;
+}
